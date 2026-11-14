@@ -2,7 +2,7 @@ name: Update streak card
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
   push:
     paths:

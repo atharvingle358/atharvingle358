@@ -95,7 +95,7 @@ def render(total, current, longest, first_day, updated):
 
   <text class="big blue" x="82" y="82">{total}</text>
   <text class="lbl blue" x="82" y="108">Total Contributions</text>
-  <text class="sub" x="82" y="132">{short(first_day)} - Present</text>
+  <text class="sub" x="82" y="132">Past 12 months</text>
 
   <g class="ring">
     <circle cx="247.5" cy="70" r="40" fill="none" stroke="#70a5fd" stroke-width="5"/>
